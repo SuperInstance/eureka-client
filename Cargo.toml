@@ -1,0 +1,16 @@
+[package]
+name = "eureka-client"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/casey-digennaro/eureka-client"
+edition = "2021"
+description = "Netflix Eureka REST client for service registration and discovery"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["rt", "macros", "time"] }
+thiserror = "2"
+tracing = "0.1"
+xml-rs = "0.8"
