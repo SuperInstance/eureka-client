@@ -2,9 +2,11 @@
 name = "eureka-client"
 version = "0.1.0"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/casey-digennaro/eureka-client"
+repository = "https://github.com/SuperInstance/eureka-client"
 edition = "2021"
 description = "Netflix Eureka REST client for service registration and discovery"
+
+keywords = ["eureka-client"]
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json"] }
